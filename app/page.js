@@ -48,6 +48,7 @@ export default function Home() {
         >
           <h2>
             Docs <span>-&gt;</span>
+            {process.env.NEXT_PUBLIC_var}
           </h2>
           <p>Find in-depth information about Next.js features and API.</p>
         </a>
